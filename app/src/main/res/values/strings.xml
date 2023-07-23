@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyAndroidApplication1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- <String name="title_entre">entrez un nombre</String>
+    <String name="title_result">resultat</String>-->
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:flow_verticalAlign="center"
+    android:paddingTop="?attr/actionBarSize"
+    android:layout_centerVertical="true">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="DEVINEZ LE NOMBRE DE BUTS DES JOUEURS EN CDM 2022 AU QATAR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/gris_clair"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/mbappe_neymar_messi"
+        android:layout_width="wrap_content"
+        android:layout_height="389dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/neymar_mbappe_messi" />
+
+    <TextView
+        android:id="@+id/joueur_name"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/app_name"
+        android:background="@color/gris_clair"
+        android:layout_marginLeft="15dp"
+
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/buts_entres"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:text=""
+        android:hint="nombre de buts ?"
+        android:background="@color/gris_clair"
+        android:layout_marginLeft="15dp"
+
+        />
+    <TextView
+        android:id="@+id/indication_dichotomique"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="indication_dichotomique"
+        android:background="@color/gris_clair"
+        android:layout_marginLeft="15dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:text="OK"
+            android:id="@+id/bouton_OK"
+            android:layout_marginBottom="30dp"
+            android:background="@color/orange_rougeatre2"
+            android:layout_marginLeft="15dp"
+            />
+        <Button
+            android:id="@+id/button_go_forward"
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bleu_verdatre"
+            android:text="next"
+            />
+    </LinearLayout>
+</LinearLayout>

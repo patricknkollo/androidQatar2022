@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF0000</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="light_blue">#3d85c6</color>
+    <color name="yellow_triste">#b7ad50</color>
+    <color name="bleu_casse">#508eb7</color>
+    <color name="rose_casse">#b7505b</color>
+    <color name="maron_clair">#b77850</color>
+    <color name="vert_clair">#b2d8b2</color>
+    <color name="orange_clair">#f8bf85</color>
+
+    <color name="rose_clair">#e3d2cf</color>
+    <color name="gris_clair_2">#cfe0e3</color>
+    <color name="gris_clair">#c2d6dc</color>
+    <color name="vert_clair2">#c2d1ad</color>
+    <color name="indigo">#5d478b</color>
+    <color name="rougeatre_2">#e32636</color>
+    <color name="blue_clair2">#5d8aa8</color>
+
+    <color name="violet">#550551</color>
+    <color name="bleu_verdatre">#00ced1</color>
+    <color name="violet_sombre">#420420</color>
+    <color name="orange_rougeatre">#ff4040</color>
+    <color name="rose">#ff1493</color>
+    <color name="orange_rougeatre2">#db4648</color>
+    <color name="light_yellow">#ffff99</color>
+</resources>
